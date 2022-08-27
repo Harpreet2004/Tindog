@@ -197,6 +197,7 @@ p{
 
 /* MEDIA QUERIES */
 
+
 @media (max-width:1035px){
 
     #title{
@@ -208,4 +209,22 @@ p{
         transform: rotate(0);
         width: 55%;
     }
+}
+
+@media (max-width:408px) {
+    .big-heading{
+        font-size: 2.5rem;
+    }
+
+    .top-img {
+        position: static;
+        width: 60%;
+        margin-left: 3rem;
+        transform: rotate(25deg);
+}
+
+    .press-img {
+    width: 33%;
+    padding: 20px 20px 15px;
+}
 }
